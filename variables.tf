@@ -20,7 +20,7 @@ variable "ec2_instance_tags" {
 
 variable "image_id" {
   type        = string
-  description = "The id of the machine image (AMI) to use for the server."
+  description = "The id of the machine image (AMI) to use for the server"
   default     = "ami-0557a15b87f6559cf"
 
   validation {
